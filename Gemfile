@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'bundler'
-gem 'rest-client'
+# Specify gem's dependencies in sendcloud-sms.gemspec
+gemspec

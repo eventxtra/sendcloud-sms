@@ -11,5 +11,14 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/heckpsi-lab/sendcloud-sms'
   s.license     = 'MIT'
 
+  s.required_ruby_version = Gem::Requirement.new('>= 2.4.0')
+
   s.add_runtime_dependency 'rest-client', '>= 1.8.0'
+
+  s.add_development_dependency 'byebug'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'rubocop-performance'
+  s.add_development_dependency 'rubocop-rspec'
+  s.add_development_dependency 'webmock'
 end
